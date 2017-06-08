@@ -19,7 +19,7 @@
 <br>
 <% Title.all.each do |title| %>
   <input type="checkbox" name="figure[title_ids][]"
-  value="<%= title.id %>" id="title_<%= title.id %>">
+  value="title_<%= title.id %>" id="title_<%= title.id %>">
   <%= title.name %></input>
 <% end %>
 <br>
